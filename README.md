@@ -1,6 +1,3 @@
-# suivi-meteo-ci
-# suivi-meteo-ci
-
 # 🌍 Suivi Météo Côte d'Ivoire
 
 Ce projet permet de générer automatiquement une carte interactive affichant les précipitation, les températures minimales et smaximales de quelques villes de la Côte d’Ivoire.
