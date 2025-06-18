@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_995477db376e1d34643e304a6ae120d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_995477db376e1d34643e304a6ae120d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_995477db376e1d34643e304a6ae120d4 = L.map(
+                "map_995477db376e1d34643e304a6ae120d4",
+                {
+                    center: [7.5, -5.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4155406c2e019095a3000e4a5e5a2ecf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_995477db376e1d34643e304a6ae120d4);
+        
+    
+            var marker_aba009d4e5f2f18f789868a5d8e4a400 = L.marker(
+                [5.348, -4.027],
+                {}
+            ).addTo(map_995477db376e1d34643e304a6ae120d4);
+        
+    
+            var icon_2d04fe63ef5dca82157076557a06ca22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aba009d4e5f2f18f789868a5d8e4a400.setIcon(icon_2d04fe63ef5dca82157076557a06ca22);
+        
+    
+        var popup_4355799a55e18a869897d38847005f5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a4230c41d310229fffa32cb1cc9d5dd = $(`<div id="html_6a4230c41d310229fffa32cb1cc9d5dd" style="width: 100.0%; height: 100.0%;">     <b>Ville :</b> Abidjan<br>     🌧️ <b>Précipitations :</b> 15.6 mm<br>     🌡️ <b>Temp. min :</b> 20.8 °C<br>     🔥 <b>Temp. max :</b> 28.7 °C     </div>`)[0];
+            popup_4355799a55e18a869897d38847005f5b.setContent(html_6a4230c41d310229fffa32cb1cc9d5dd);
+        
+
+        marker_aba009d4e5f2f18f789868a5d8e4a400.bindPopup(popup_4355799a55e18a869897d38847005f5b)
+        ;
+
+        
+    
+    
+            var marker_ece8c278ee7e04e4fb4a1badf0b13de2 = L.marker(
+                [7.683, -5.03],
+                {}
+            ).addTo(map_995477db376e1d34643e304a6ae120d4);
+        
+    
+            var icon_76f4574b30bc872c602fb0beac179420 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ece8c278ee7e04e4fb4a1badf0b13de2.setIcon(icon_76f4574b30bc872c602fb0beac179420);
+        
+    
+        var popup_21cda07de70f2f227c03f4391412dd42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_765e7952bd74a7e46c1c8ddb3a72d09f = $(`<div id="html_765e7952bd74a7e46c1c8ddb3a72d09f" style="width: 100.0%; height: 100.0%;">     <b>Ville :</b> Bouaké<br>     🌧️ <b>Précipitations :</b> 44.1 mm<br>     🌡️ <b>Temp. min :</b> 24.8 °C<br>     🔥 <b>Temp. max :</b> 32.6 °C     </div>`)[0];
+            popup_21cda07de70f2f227c03f4391412dd42.setContent(html_765e7952bd74a7e46c1c8ddb3a72d09f);
+        
+
+        marker_ece8c278ee7e04e4fb4a1badf0b13de2.bindPopup(popup_21cda07de70f2f227c03f4391412dd42)
+        ;
+
+        
+    
+    
+            var marker_2cc826c176061d63a007fcc39cc4d7f5 = L.marker(
+                [6.817, -5.283],
+                {}
+            ).addTo(map_995477db376e1d34643e304a6ae120d4);
+        
+    
+            var icon_4c42f3c710b72e418df531c85644fb5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2cc826c176061d63a007fcc39cc4d7f5.setIcon(icon_4c42f3c710b72e418df531c85644fb5b);
+        
+    
+        var popup_6c6a02037f40db7bab0bd6048af2a8c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c710850958700854adaa20eca5b91851 = $(`<div id="html_c710850958700854adaa20eca5b91851" style="width: 100.0%; height: 100.0%;">     <b>Ville :</b> Yamoussoukro<br>     🌧️ <b>Précipitations :</b> 70.9 mm<br>     🌡️ <b>Temp. min :</b> 24.5 °C<br>     🔥 <b>Temp. max :</b> 35.0 °C     </div>`)[0];
+            popup_6c6a02037f40db7bab0bd6048af2a8c8.setContent(html_c710850958700854adaa20eca5b91851);
+        
+
+        marker_2cc826c176061d63a007fcc39cc4d7f5.bindPopup(popup_6c6a02037f40db7bab0bd6048af2a8c8)
+        ;
+
+        
+    
+    
+            var marker_afb600b13809b8001c6f638f350d982f = L.marker(
+                [4.748, -6.64],
+                {}
+            ).addTo(map_995477db376e1d34643e304a6ae120d4);
+        
+    
+            var icon_712de218727d4eb61a114ccb760b49ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_afb600b13809b8001c6f638f350d982f.setIcon(icon_712de218727d4eb61a114ccb760b49ef);
+        
+    
+        var popup_df6c64972fa57b2ba4ef0c7e9e948848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5ad94fdb76ada32809964734a28fea2 = $(`<div id="html_a5ad94fdb76ada32809964734a28fea2" style="width: 100.0%; height: 100.0%;">     <b>Ville :</b> San Pedro<br>     🌧️ <b>Précipitations :</b> 71.0 mm<br>     🌡️ <b>Temp. min :</b> 21.9 °C<br>     🔥 <b>Temp. max :</b> 35.1 °C     </div>`)[0];
+            popup_df6c64972fa57b2ba4ef0c7e9e948848.setContent(html_a5ad94fdb76ada32809964734a28fea2);
+        
+
+        marker_afb600b13809b8001c6f638f350d982f.bindPopup(popup_df6c64972fa57b2ba4ef0c7e9e948848)
+        ;
+
+        
+    
+    
+            var marker_e873eb6f9662a2e6d353fcfe3501c030 = L.marker(
+                [9.458, -5.629],
+                {}
+            ).addTo(map_995477db376e1d34643e304a6ae120d4);
+        
+    
+            var icon_51c5961b9c9026b5fbc56e056ca669ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e873eb6f9662a2e6d353fcfe3501c030.setIcon(icon_51c5961b9c9026b5fbc56e056ca669ab);
+        
+    
+        var popup_fa03116f915abaf91713e1df09f9fd0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d576b9d13ad2c59d4a0da4d805219687 = $(`<div id="html_d576b9d13ad2c59d4a0da4d805219687" style="width: 100.0%; height: 100.0%;">     <b>Ville :</b> Korhogo<br>     🌧️ <b>Précipitations :</b> 32.3 mm<br>     🌡️ <b>Temp. min :</b> 24.4 °C<br>     🔥 <b>Temp. max :</b> 28.9 °C     </div>`)[0];
+            popup_fa03116f915abaf91713e1df09f9fd0d.setContent(html_d576b9d13ad2c59d4a0da4d805219687);
+        
+
+        marker_e873eb6f9662a2e6d353fcfe3501c030.bindPopup(popup_fa03116f915abaf91713e1df09f9fd0d)
+        ;
+
+        
+    
+</script>
+</html>
